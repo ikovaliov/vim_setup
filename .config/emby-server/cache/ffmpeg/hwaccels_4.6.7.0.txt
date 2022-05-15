@@ -1,0 +1,6 @@
+﻿Hardware acceleration methods:
+videotoolbox
+opencl
+videotoolbox
+
+
