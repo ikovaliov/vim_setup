@@ -10,7 +10,6 @@
 
 ## Useful links
 
-- [Powerlevel10k theme for ZSH](https://github.com/romkatv/powerlevel10k)
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A collection of configurations for Neovim's built-in LSP
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - [Treesitter](https://github.com/tree-sitter/tree-sitter) configurations and abstraction layer for Neovim
@@ -22,6 +21,7 @@
 - [Homebrew](https://brew.sh/)
 - [iTerm2](https://iterm2.com/)
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Powerlevel10k theme for ZSH](https://github.com/romkatv/powerlevel10k)
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 - [Trending vim color schemes](https://vimcolorschemes.com/)
 
