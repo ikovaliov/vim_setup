@@ -11,6 +11,7 @@
 ## Useful links
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
+  - [ale](https://github.com/dense-analysis/ale) - Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A collection of configurations for Neovim's built-in LSP
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - [Treesitter](https://github.com/tree-sitter/tree-sitter) configurations and abstraction layer for Neovim
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim coded in Lua
@@ -24,4 +25,7 @@
 - [Powerlevel10k theme for ZSH](https://github.com/romkatv/powerlevel10k)
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 - [Trending vim color schemes](https://vimcolorschemes.com/)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+  - [Lazygit Keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md)
+ 
 
