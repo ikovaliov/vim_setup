@@ -55,6 +55,9 @@ set backspace=start,eol,indent
 set path+=**
 set wildignore+=*/node_modules/*
 
+" Goto definition
+set tagfunc=jsfileimport#tagfunc
+
 " Turn off paste mode when leaving insert
 autocmd InsertLeave * set nopaste
 
@@ -100,6 +103,10 @@ autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
+" Highlighting for large files
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
 " For disable error
 let g:loaded_perl_provider = 0
 
@@ -127,8 +134,23 @@ let g:ale_virtualtext_prefix = "🔥 "
 let g:prettier#autoformat_config_present = 1
 let g:prettier#config#config_precedence = 'prefer-file'
 
+" show documentation for the word under the cursor in the same way:
+nnoremap <silent> K :call CocAction('doHover')<CR>
+
+" Navigating
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gr <Plug>(coc-references)
+
+" navigate current file by jumping to the next or previous error
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" :CocList command to see the available lists
+nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>
+
 " NRDTTree
-let mapleader = " "
+let mapleader = ","
 nnoremap <leader>pv :Vex<CR>
 nnoremap <leader>pf :Files<CR>
 inoremap jk <esc>:w<CR>

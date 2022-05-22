@@ -1,0 +1,160 @@
+2022-05-21 00:02:50.341 Info App: Application version: 4.6.7.0
+2022-05-21 00:02:50.354 Info App: Emby
+	Command line: /Applications/EmbyServer.app/Contents/MacOS/EmbyServer.dll -noautorunwebapp
+	Operating system: Darwin 21.4.0 Darwin Kernel Version 21.4.0: Fri Mar 18 00:47:26 PDT 2022; root:xnu-8020.101.4~15/RELEASE_ARM64_T8101
+	Framework: .NET Core 3.1.8
+	OS/Process: x64/x64
+	Runtime: Applications/EmbyServer.app/Contents/MacOS/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /Users/admin/.config/emby-server
+	Application path: /Applications/EmbyServer.app/Contents/MacOS
+2022-05-21 00:02:50.355 Info App: Logs path: /Users/admin/.config/emby-server/logs
+2022-05-21 00:02:50.355 Info App: Cache path: /Users/admin/.config/emby-server/cache
+2022-05-21 00:02:50.356 Info App: Internal metadata path: /Users/admin/.config/emby-server/metadata
+2022-05-21 00:02:50.356 Info App: Transcoding temporary files path: /Users/admin/.config/emby-server/transcoding-temp
+2022-05-21 00:02:50.360 Info App: Plugins:
+	Bluray Folder Support 1.0.0.0
+	Cinema Intros 1.0.38.0
+	Dlna 1.0.69.0
+	Dvd Folder Support 1.0.0.0
+	Fanart.tv 1.0.13.0
+	MovieDb 1.5.2.0
+	MusicBrainz 1.0.18.0
+	Nfo Metadata 1.0.56.0
+	OMDb 1.0.14.0
+	Open Subtitles 1.0.28.0
+	Port Mapper 1.1.2.0
+	Studio Images 1.0.3.0
+	TheAudioDb 1.0.14.0
+	TheTVDB 1.0.42.0
+	Webhooks 1.0.15.0
+2022-05-21 10:32:42.204 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:42.561 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 373ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:42.587 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Items/133/Similar?userId=df185223d5f24e6b94109ad47bed7796&itemId=133&parentId=24&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=20&includeItemTypes=Movie&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:42.618 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 32ms. http://192.168.0.182:8096/emby/Items/133/Similar?userId=df185223d5f24e6b94109ad47bed7796&itemId=133&parentId=24&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=20&includeItemTypes=Movie&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:42.628 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?fields=PrimaryImageAspectRatio,UserData,CanDelete&EnableTotalRecordCount=false&IncludeItemTypes=Playlist,BoxSet&Recursive=true&SortBy=SortName&ListItemIds=133&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:42.649 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 21ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?fields=PrimaryImageAspectRatio,UserData,CanDelete&EnableTotalRecordCount=false&IncludeItemTypes=Playlist,BoxSet&Recursive=true&SortBy=SortName&ListItemIds=133&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:42.656 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133/SpecialFeatures?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:42.660 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 5ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133/SpecialFeatures?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:47.785 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Resume?Fields=PrimaryImageAspectRatio&MediaTypes=Video&limit=8&EnableImageTypes=Primary,Thumb,Backdrop&EnableTotalRecordCount=false&Recursive=true&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:47.876 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:47.971 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 192ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Resume?Fields=PrimaryImageAspectRatio&MediaTypes=Video&limit=8&EnableImageTypes=Primary,Thumb,Backdrop&EnableTotalRecordCount=false&Recursive=true&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:47.992 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 127ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:47.995 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Latest?recursive=true&Fields=PrimaryImageAspectRatio&MediaTypes=Video&limit=20&EnableImageTypes=Primary,Thumb,Backdrop&GroupItems=true&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:48.015 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Items/133/Similar?userId=df185223d5f24e6b94109ad47bed7796&itemId=133&parentId=24&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=20&includeItemTypes=Movie&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:48.020 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 26ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Latest?recursive=true&Fields=PrimaryImageAspectRatio&MediaTypes=Video&limit=20&EnableImageTypes=Primary,Thumb,Backdrop&GroupItems=true&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:48.026 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 11ms. http://192.168.0.182:8096/emby/Items/133/Similar?userId=df185223d5f24e6b94109ad47bed7796&itemId=133&parentId=24&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=20&includeItemTypes=Movie&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:48.065 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?fields=PrimaryImageAspectRatio,UserData,CanDelete&EnableTotalRecordCount=false&IncludeItemTypes=Playlist,BoxSet&Recursive=true&SortBy=SortName&ListItemIds=133&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:48.074 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 9ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?fields=PrimaryImageAspectRatio,UserData,CanDelete&EnableTotalRecordCount=false&IncludeItemTypes=Playlist,BoxSet&Recursive=true&SortBy=SortName&ListItemIds=133&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:48.092 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133/SpecialFeatures?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:48.095 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 2ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/133/SpecialFeatures?X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:49.322 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/DisplayPreferences/f137a2dd21bbc1b99aa5c0f6bf02a805?userId=df185223d5f24e6b94109ad47bed7796&client=tvos&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:49.408 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 91ms. http://192.168.0.182:8096/emby/DisplayPreferences/f137a2dd21bbc1b99aa5c0f6bf02a805?userId=df185223d5f24e6b94109ad47bed7796&client=tvos&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:49.437 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?parentId=f137a2dd21bbc1b99aa5c0f6bf02a805&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&includeItemTypes=Movie&startIndex=0&limit=100&recursive=true&SortBy=SortName&SortOrder=Ascending&EnableTotalRecordCount=false&GroupItemsIntoCollections=false&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:49.481 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 47ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items?parentId=f137a2dd21bbc1b99aa5c0f6bf02a805&fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&includeItemTypes=Movie&startIndex=0&limit=100&recursive=true&SortBy=SortName&SortOrder=Ascending&EnableTotalRecordCount=false&GroupItemsIntoCollections=false&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:49.835 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Views?0=d&1=f&2=1&3=8&4=5&5=2&6=2&7=3&8=d&9=5&10=f&11=2&12=4&13=e&14=6&15=b&16=9&17=4&18=1&19=0&20=9&21=a&22=d&23=4&24=7&25=b&26=e&27=d&28=7&29=7&30=9&31=6&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:49.908 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 77ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Views?0=d&1=f&2=1&3=8&4=5&5=2&6=2&7=3&8=d&9=5&10=f&11=2&12=4&13=e&14=6&15=b&16=9&17=4&18=1&19=0&20=9&21=a&22=d&23=4&24=7&25=b&26=e&27=d&28=7&29=7&30=9&31=6&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:49.935 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Resume?recursive=true&ImageTypeLimit=1&EnableImageTypes=Primary,Thumb,Backdrop&MediaTypes=Video&Fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=40&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:49.935 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/LiveTv/Programs/Recommended?userId=df185223d5f24e6b94109ad47bed7796&ImageTypeLimit=1&IsAiring=true&EnableImageTypes=Primary,Thumb,Backdrop&MediaTypes=Video&Fields=ChannelInfo,PrimaryImageAspectRatio,ProductionYear,PremiereDate,OfficialRating&limit=40&EnableTotalRecordCount=false&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:49.952 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Latest?fields=PrimaryImageAspectRatio,ProductionYear,PremiereDate,OfficialRating&ParentId=f137a2dd21bbc1b99aa5c0f6bf02a805&limit=40&EnableImageTypes=Primary,Backdrop,Thumb&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1). UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:50.007 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 78ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Resume?recursive=true&ImageTypeLimit=1&EnableImageTypes=Primary,Thumb,Backdrop&MediaTypes=Video&Fields=PrimaryImageAspectRatio,ParentId,ProductionYear,PremiereDate,OfficialRating&limit=40&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:50.020 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 69ms. http://192.168.0.182:8096/emby/Users/df185223d5f24e6b94109ad47bed7796/Items/Latest?fields=PrimaryImageAspectRatio,ProductionYear,PremiereDate,OfficialRating&ParentId=f137a2dd21bbc1b99aa5c0f6bf02a805&limit=40&EnableImageTypes=Primary,Backdrop,Thumb&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:50.028 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 99ms. http://192.168.0.182:8096/emby/LiveTv/Programs/Recommended?userId=df185223d5f24e6b94109ad47bed7796&ImageTypeLimit=1&IsAiring=true&EnableImageTypes=Primary,Thumb,Backdrop&MediaTypes=Video&Fields=ChannelInfo,PrimaryImageAspectRatio,ProductionYear,PremiereDate,OfficialRating&limit=40&EnableTotalRecordCount=false&X-Emby-Client=tvOS&X-Emby-Device-Name=Гостиная&X-Emby-Device-Id=D3C9E32A-D1AF-4B15-87E5-0495ABA47B96&X-Emby-Client-Version=1.5.7 (1)
+2022-05-21 10:32:50.062 Info Server: http/1.1 GET http://192.168.0.182:8096/emby/Items/f137a2dd21bbc1b99aa5c0f6bf02a805/Images/Primary?quality=95&maxHeight=260&maxWidth=462&imageTag=636437fd4ad908602718178a414d97a5. UserAgent: Emby/1 CFNetwork/1331.0.7 Darwin/21.4.0
+2022-05-21 10:32:50.337 Info Server: http/1.1 Response 200 to 192.168.0.126. Time: 276ms. http://192.168.0.182:8096/emby/Items/f137a2dd21bbc1b99aa5c0f6bf02a805/Images/Primary?quality=95&maxHeight=260&maxWidth=462&imageTag=636437fd4ad908602718178a414d97a5
+2022-05-21 10:33:02.727 Info Dlna: DLNA Session created for [TV]Samsung LED40 - UE40H6400. Description url: http://192.168.0.196:7676/smp_15_
+2022-05-21 10:33:03.715 Info HttpClient: GET http://192.168.0.196:7676/smp_22_
+2022-05-21 12:03:03.554 Info Server: http/1.1 POST http://localhost:8096/system/shutdown. UserAgent: Go-http-client/1.1
+2022-05-21 12:03:03.597 Info Server: http/1.1 Response 204 to ::1. Time: 42ms. http://localhost:8096/system/shutdown
+2022-05-21 12:03:03.699 Info Main: AppHost_ShutdownRequested
+2022-05-21 12:03:03.705 Info Main: Closing tray icon
+2022-05-21 12:03:03.714 Info HttpClient: POST http://127.0.0.1:8024/exit
+2022-05-21 12:03:03.743 Info Main: tray icon WaitForExit
+2022-05-21 12:03:03.811 Info Main: tray icon exited
+2022-05-21 12:03:03.815 Info Server: Stopping HttpListener...
+2022-05-21 12:03:03.832 Info Server: HttpListener stopped
+2022-05-21 12:03:03.834 Info App: Disposing CoreAppHost
+2022-05-21 12:03:03.836 Info App: Disposing LoopUtilEntryPoint
+2022-05-21 12:03:03.836 Info App: Disposing SyncNotificationEntryPoint
+2022-05-21 12:03:03.836 Info App: Disposing SyncManagerEntryPoint
+2022-05-21 12:03:03.836 Info App: DisposeConnection
+2022-05-21 12:03:03.836 Info App: Disposing ConnectEntryPoint
+2022-05-21 12:03:03.836 Info App: Disposing Notifications
+2022-05-21 12:03:03.837 Info App: Disposing EncodingManagerEntryPoint
+2022-05-21 12:03:03.837 Info App: Disposing ActivityLogEntryPoint
+2022-05-21 12:03:03.838 Info App: Disposing RecordingNotifier
+2022-05-21 12:03:03.839 Info App: Disposing UpgradeChannelOptionsEntryPoint
+2022-05-21 12:03:03.839 Info App: Disposing EntryPoint
+2022-05-21 12:03:03.839 Info App: Disposing ChannelsEntryPoint
+2022-05-21 12:03:03.839 Info App: Disposing UserDataChangeNotifier
+2022-05-21 12:03:03.839 Info App: Disposing SystemEvents
+2022-05-21 12:03:03.839 Info App: Disposing StartupWizard
+2022-05-21 12:03:03.839 Info App: Disposing ServerEventNotifier
+2022-05-21 12:03:03.840 Info App: Disposing LibraryChangedNotifier
+2022-05-21 12:03:03.840 Info App: Disposing KeepServerAwake
+2022-05-21 12:03:03.840 Info App: Disposing AutomaticRestartEntryPoint
+2022-05-21 12:03:03.840 Info App: Disposing LibraryMonitorStartup
+2022-05-21 12:03:03.840 Info App: Disposing DeviceAccessEntryPoint
+2022-05-21 12:03:03.840 Info App: Disposing NewsEntryPoint
+2022-05-21 12:03:03.840 Info App: Disposing UdpServerEntryPoint
+2022-05-21 12:03:03.840 Info App: Disposing ApiEntryPoint
+2022-05-21 12:03:03.841 Info App: Disposing IntrosEntryPoint
+2022-05-21 12:03:03.841 Info App: Disposing PluginSecurityManager
+2022-05-21 12:03:03.841 Info App: Disposing DlnaEntryPoint
+2022-05-21 12:03:03.841 Info Dlna: Disposing PlayToManager
+2022-05-21 12:03:03.842 Info App: Disposing ExternalPortForwarding
+2022-05-21 12:03:03.842 Info App: Disposing WebhooksEntryPoint
+2022-05-21 12:03:03.843 Info App: Disposing EntryPoint
+2022-05-21 12:03:03.843 Info App: Disposing StrmMounter
+2022-05-21 12:03:03.843 Info App: Disposing DvdMounter
+2022-05-21 12:03:03.843 Info App: Disposing BlurayMounter
+2022-05-21 12:03:03.843 Info App: Disposing OpenSubtitleDownloader
+2022-05-21 12:03:03.843 Info App: Disposing HauppaugeTunerWindows
+2022-05-21 12:03:03.843 Info App: Disposing EmbyTV
+2022-05-21 12:03:03.844 Info App: Disposing ActivityLogWebSocketListener
+2022-05-21 12:03:03.844 Info App: Disposing SessionWebSocketListener
+2022-05-21 12:03:03.844 Info App: Disposing ScheduledTasksWebSocketListener
+2022-05-21 12:03:03.844 Info App: Disposing SessionInfoWebSocketListener
+2022-05-21 12:03:03.844 Info App: Disposing SessionInfosWebSocketListener
+2022-05-21 12:03:03.845 Info App: Disposing SessionEventsWebSocketListener
+2022-05-21 12:03:03.845 Info App: Disposing EncodingManager
+2022-05-21 12:03:03.845 Info App: Disposing ActivityRepository
+2022-05-21 12:03:03.845 Info ActivityRepository: DisposeConnection
+2022-05-21 12:03:03.845 Info ActivityRepository: Closing sqlite connection
+2022-05-21 12:03:03.847 Info App: Disposing MediaEncoder
+2022-05-21 12:03:03.847 Info App: Disposing SsdpDevicePublisher
+2022-05-21 12:03:04.058 Info App: Disposing SsdpCommunicationsServer
+2022-05-21 12:03:04.062 Info App: SsdpCommunicationsServer Disposing 4 sendSockets
+2022-05-21 12:03:04.063 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:1900
+2022-05-21 12:03:04.069 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:58055
+2022-05-21 12:03:04.069 Info App: SsdpCommunicationsServer disposing sendSocket from 192.168.0.182:49630
+2022-05-21 12:03:04.070 Info App: SsdpCommunicationsServer disposing sendSocket from 127.0.0.1:53473
+2022-05-21 12:03:04.070 Info App: Disposing LiveTvManager
+2022-05-21 12:03:04.070 Info App: Disposing SessionManager
+2022-05-21 12:03:04.072 Info App: Disposing ProviderManager
+2022-05-21 12:03:04.072 Info App: Disposing MediaSourceManager
+2022-05-21 12:03:04.074 Info App: Disposing ImageProcessor
+2022-05-21 12:03:04.074 Info App: Disposing ProcessManager
+2022-05-21 12:03:04.078 Info App: Disposing HttpListenerHost
+2022-05-21 12:03:04.079 Info Server: Stopping HttpListener...
+2022-05-21 12:03:04.079 Info Server: HttpListener stopped
+2022-05-21 12:03:04.079 Info App: Disposing LibraryMonitor
+2022-05-21 12:03:04.080 Info LibraryMonitor: Stopping directory watching for path /Users/admin/Movies
+2022-05-21 12:03:04.086 Info App: Disposing AuthenticationRepository
+2022-05-21 12:03:04.087 Info AuthenticationRepository: DisposeConnection
+2022-05-21 12:03:04.087 Info AuthenticationRepository: Closing sqlite connection
+2022-05-21 12:03:04.089 Info App: Disposing SqliteUserDataRepository
+2022-05-21 12:03:04.089 Info SqliteUserDataRepository: DisposeConnection
+2022-05-21 12:03:04.089 Info App: Disposing SqliteItemRepository
+2022-05-21 12:03:04.089 Info SqliteItemRepository: DisposeConnection
+2022-05-21 12:03:04.089 Info SqliteItemRepository: Closing sqlite connection
+2022-05-21 12:03:04.093 Info App: Disposing SqliteDisplayPreferencesRepository
+2022-05-21 12:03:04.093 Info SqliteDisplayPreferencesRepository: DisposeConnection
+2022-05-21 12:03:04.093 Info SqliteDisplayPreferencesRepository: Closing sqlite connection
+2022-05-21 12:03:04.093 Info App: Disposing SqliteUserRepository
+2022-05-21 12:03:04.093 Info SqliteUserRepository: DisposeConnection
+2022-05-21 12:03:04.093 Info SqliteUserRepository: Closing sqlite connection
+2022-05-21 12:03:04.094 Info App: Disposing InstallationManager
+2022-05-21 12:03:04.094 Info App: Disposing TaskManager
+2022-05-21 12:03:04.096 Info App: Disposing MediaMountManager
+2022-05-21 12:03:04.096 Info Main: Shutdown complete
