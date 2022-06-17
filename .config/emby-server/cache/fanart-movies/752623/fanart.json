@@ -1,0 +1,157 @@
+{
+    "name": "The Lost City",
+    "tmdb_id": "752623",
+    "imdb_id": "tt13320622",
+    "hdmovielogo": [
+        {
+            "id": "355172",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovielogo/the-lost-city-61bc5981511e9.png",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "363119",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovielogo/the-lost-city-62367ab59b242.png",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "356263",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovielogo/the-lost-city-61d15b5fb6073.png",
+            "lang": "fr",
+            "likes": "3"
+        },
+        {
+            "id": "355173",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovielogo/the-lost-city-61bc599e43eb3.png",
+            "lang": "ru",
+            "likes": "2"
+        }
+    ],
+    "movieposter": [
+        {
+            "id": "363121",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-62367aef950c8.jpg",
+            "lang": "fr",
+            "likes": "4"
+        },
+        {
+            "id": "363120",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-62367ad5a8c20.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "355175",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-61bc59d54a43c.jpg",
+            "lang": "ru",
+            "likes": "1"
+        },
+        {
+            "id": "355174",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-61bc59bc5c6f5.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "366679",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-626567de4e31d.jpg",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "363162",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/movieposter/the-lost-city-6236f79bda9eb.jpg",
+            "lang": "00",
+            "likes": "0"
+        }
+    ],
+    "moviebackground": [
+        {
+            "id": "363127",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviebackground/the-lost-city-62367bd5d5c7b.jpg",
+            "lang": "",
+            "likes": "3"
+        },
+        {
+            "id": "366680",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviebackground/the-lost-city-6265685fefc88.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "366681",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviebackground/the-lost-city-62656948b334c.jpg",
+            "lang": "",
+            "likes": "1"
+        }
+    ],
+    "hdmovieclearart": [
+        {
+            "id": "363125",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovieclearart/the-lost-city-62367b66cfd95.png",
+            "lang": "ru",
+            "likes": "3"
+        },
+        {
+            "id": "363124",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovieclearart/the-lost-city-62367b433664b.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "365633",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/hdmovieclearart/the-lost-city-625302e797536.png",
+            "lang": "fr",
+            "likes": "2"
+        }
+    ],
+    "moviedisc": [
+        {
+            "id": "367710",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviedisc/the-lost-city-627ccd9be9995.png",
+            "lang": "en",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "355202",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviedisc/the-lost-city-61bcd04eaf73a.png",
+            "lang": "ru",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "355191",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviedisc/the-lost-city-61bca9fef1b67.png",
+            "lang": "en",
+            "likes": "0",
+            "disc": "1",
+            "disc_type": "bluray"
+        }
+    ],
+    "moviebanner": [
+        {
+            "id": "359719",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviebanner/the-lost-city-620639eb2b5e2.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "365634",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviebanner/the-lost-city-625302ff35656.jpg",
+            "lang": "fr",
+            "likes": "1"
+        }
+    ],
+    "moviethumb": [
+        {
+            "id": "367593",
+            "url": "http://assets.fanart.tv/fanart/movies/752623/moviethumb/the-lost-city-627a4cf266657.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ]
+}

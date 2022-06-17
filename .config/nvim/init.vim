@@ -110,30 +110,6 @@ autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 " For disable error
 let g:loaded_perl_provider = 0
 
-" Eslint/Prittier
-let js_fixers = ['prettier', 'eslint']
-
-let g:ale_fixers = {
-    \ '*': ['remove_trailing_lines', 'trim_whitespace'],
-    \ 'javascript': js_fixers,
-    \ 'javascript.jsx': js_fixers,
-    \ 'typescript': js_fixers,
-    \ 'typescriptreact': js_fixers,
-    \ 'css': ['prettier'],
-    \ 'json': ['prettier'],
-    \}
-
-let g:ale_fix_on_save = 1
-let g:ale_completion_autoimport = 1
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '⚠️'
-let g:ale_sign_info = "ℹ"
-let g:ale_virtualtext_cursor = 1
-let g:ale_virtualtext_prefix = "🔥 "
-
-let g:prettier#autoformat_config_present = 1
-let g:prettier#config#config_precedence = 'prefer-file'
-
 " show documentation for the word under the cursor in the same way:
 nnoremap <silent> K :call CocAction('doHover')<CR>
 
@@ -160,6 +136,33 @@ let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 0
 let g:NERDTreeIgnore = ['node_modules']
 let NERDTreeStatusLine='NERDTree'
+
+" Create default mappings
+let g:NERDCreateDefaultMappings = 1
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '{/*','right': '*/}' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
+" Enable NERDCommenterToggle to check all selected lines is commented or not 
+let g:NERDToggleCheckAllLines = 1
 
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

@@ -1,9 +1,10 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
+Plug 'SirVer/ultisnips'
+Plug 'mlaursen/vim-react-snippets'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -21,6 +22,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'mattn/emmet-vim'
+Plug 'preservim/nerdcommenter'
 Plug 'junegunn/fzf.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
